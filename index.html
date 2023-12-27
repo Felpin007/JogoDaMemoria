@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 id="game-title">Jogo da Memória</h1>
+    <div id="animated-cards"></div>
+    <div id="menu">
+        <div id="players"></div>
+        <button id="add-player" class="button-animation">Adicionar jogador</button>
+        <button id="start-game" class="button-animation">Começar jogo</button>
+    </div>
+    <div id="turn"></div>
+    <div id="game-board"></div>
+    <div id="scoreboard">
+        <div id="scores"></div>
+        <div id="general-stats-title" class="info-title">Informações Gerais</div>
+        <div id="general-stats"></div>
+        <div id="general-info-title" class="info-title">Informações individuais</div>
+        <div id="general-info"></div>
+    </div>
+    <div id="info"></div>
+    <div id="hide-button" class="card">
+        <div class="front">
+            <img src="hide.png">
+        </div>
+        <div class="back">
+            <img src="hided.png">
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
